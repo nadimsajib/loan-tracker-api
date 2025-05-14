@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const cors = require('cors');
-const loansRouter = require('./routes/loans');
+const loansRouter = require('./routes/loan');
 
 const app = express();
 app.use(cors());
